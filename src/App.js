@@ -7,6 +7,8 @@ import ConditionalRenderingFunction from './components/conditionalRenderingFunct
 import NestingClass from './components/nestingComponent';
 import ParentPropsClass from './components/MethodsAsPropsParent';
 import NavBarForm from './components/NavBarForm';
+import RenderingLists from './components/renderingLists';
+import Content from './components/content';
 
 function App() {
   return <div className="App">
@@ -14,7 +16,9 @@ function App() {
     <ConditionalRenderingFunction connected={false} /> */}
     {/* <NestingClass /> */}
     {/* < ParentPropsClass /> */}
-    <NavBarForm />
+    {/* <NavBarForm /> */}
+    {/* <RenderingLists /> */}
+    <Content />
   </div>;
 }
 
