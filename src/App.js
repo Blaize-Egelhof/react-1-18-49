@@ -9,6 +9,7 @@ import ParentPropsClass from './components/MethodsAsPropsParent';
 import NavBarForm from './components/NavBarForm';
 import RenderingLists from './components/renderingLists';
 import Content from './components/content';
+import HttpRequests from './components/HttpRequests';
 
 function App() {
   return <div className="App">
@@ -18,7 +19,8 @@ function App() {
     {/* < ParentPropsClass /> */}
     {/* <NavBarForm /> */}
     {/* <RenderingLists /> */}
-    <Content />
+    {/* <Content /> */}
+    <HttpRequests />
   </div>;
 }
 
